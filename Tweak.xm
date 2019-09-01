@@ -10,6 +10,8 @@
 %hook WAMessageStatusSliceView
 
 - (id)createStatusImage:(NSUInteger) status {
+	%orig
+
 	NSLog(@"[TWEAK] Invoked didReceiveData");
  	UIAlertView *a = [[UIAlertView alloc] initWithTitle:@"Studo++ v1" message:@"" delegate:nil cancelButtonTitle:@"Ok!" otherButtonTitles:nil];
 	[a show];
@@ -23,6 +25,8 @@
 }
     	
 - (id)statusImageForStatus:(NSUInteger) status {
+	%orig
+	
 	NSLog(@"[TWEAK] Invoked didReceiveData");
  	UIAlertView *a = [[UIAlertView alloc] initWithTitle:@"Studo++ v1" message:@"" delegate:nil cancelButtonTitle:@"Ok!" otherButtonTitles:nil];
 	[a show];
