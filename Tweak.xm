@@ -13,7 +13,7 @@
 	%orig
 
 	NSLog(@"[TWEAK] Invoked didReceiveData");
- 	UIAlertView *a = [[UIAlertView alloc] initWithTitle:@"Studo++ v1" message:@"" delegate:nil cancelButtonTitle:@"Ok!" otherButtonTitles:nil];
+ 	UIAlertView *a = [[UIAlertView alloc] initWithTitle:@"BlissfulIgnorance" message:@"" delegate:nil cancelButtonTitle:@"Ok!" otherButtonTitles:nil];
 	[a show];
 
 	if(status == 6)
@@ -26,9 +26,9 @@
     	
 - (id)statusImageForStatus:(NSUInteger) status {
 	%orig
-	
+
 	NSLog(@"[TWEAK] Invoked didReceiveData");
- 	UIAlertView *a = [[UIAlertView alloc] initWithTitle:@"Studo++ v1" message:@"" delegate:nil cancelButtonTitle:@"Ok!" otherButtonTitles:nil];
+ 	UIAlertView *a = [[UIAlertView alloc] initWithTitle:@"BlissfulIgnorance" message:@"" delegate:nil cancelButtonTitle:@"Ok!" otherButtonTitles:nil];
 	[a show];
 	
 	if(status == 6)
